@@ -2,12 +2,8 @@ name: package
 
 on:
   push:
-    paths-ignore:
-      - '.gitignore'
-      - 'README.md'
-      - '.github/dependabot.yml'
-      - '.devcontainer/**'
-      - 'requirements.dev.txt'
+    tags:
+      - '*'
   workflow_dispatch:
 
 jobs:
