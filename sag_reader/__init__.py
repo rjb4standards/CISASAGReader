@@ -1,13 +1,13 @@
 # Copyright 2018-2024 Business Cyber Guardian a Reliable Energy Analytics LLC Compant
 # Provided under MIT Licensing Terms
-from enum import StrEnum
 import json
+from enum import StrEnum
 from pathlib import Path
 from typing import Annotated, Optional
 
 import pandas
+import rich
 import typer
-from rich import print as rprint
 
 APP = typer.Typer()
 
@@ -50,7 +50,7 @@ def human_output(df: pandas.DataFrame, include_descriptions: bool):
         line = f"[blue]{row[1]}[/blue]: {response}"
         if include_descriptions:
             line += f"\n\t{row[2]}\n"
-        rprint(line)
+        rich.print(line)
 
 
 def json_output(df: pandas.DataFrame):
