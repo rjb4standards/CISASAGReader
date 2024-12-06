@@ -15,7 +15,7 @@ running `sag-reader` from the command line.
 To get information on usage, simple run `sag-reader --help`.
 
 ## Output
-The CISASAGReader will parse Excel files (.xlsx) in the CISA format. It will remove those answers that the spreadsheet indicates do not have to be answered to reduce overall noise.
+The CISASAGReader will parse Excel files (.xlsx and .xls) in the CISA format. It will remove those answers that the spreadsheet indicates do not have to be answered to reduce overall noise.
 
 Output is human-readable by default. However, the `sag-reader` application can also be used to produce output in a JSON format that may be used in downstream processing, such as automated risk analysis, datalake inclusion for population analysis, or simple inclusion in a database for electronic recall and display. For example: sag-reader spreadsheet.xls json
 
