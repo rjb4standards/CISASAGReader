@@ -29,6 +29,7 @@ def check_filename(p: Path) -> Path:
 
 
 def human_output(df: pandas.DataFrame, include_descriptions: bool):
+    last_section: str = None
     for row in df.itertuples():
         response: str = None
         match row[3]:
@@ -42,6 +43,10 @@ def human_output(df: pandas.DataFrame, include_descriptions: bool):
                 response = "N/A"
             case _ if pandas.isna(row[3]):
                 response = ""
+        if last_section != (section := row[1].split(".")[1]):
+            if last_section is not None:
+                typer.confirm("Continue?", abort=True, default=True, prompt_suffix="")
+            last_section = section
         line = f"[blue]{row[1]}[/blue]: {response}"
         if include_descriptions:
             line += f"\n\t{row[2]}\n"
@@ -56,8 +61,7 @@ def json_output(df: pandas.DataFrame):
         for n in components[:-1]:
             item = item.setdefault(n, {})
         item[components[-1]] = row[3] if not pandas.isna(row[3]) else None
-    # print(json.dumps(output, separators=(",", ":")))
-    print(json.dumps(output, indent=2))
+    print(json.dumps(output, separators=(",", ":")))
 
 
 @APP.command()
