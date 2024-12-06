@@ -7,7 +7,7 @@ from typing import Annotated, Optional
 
 import pandas
 import typer
-from rich import print
+from rich import print as rprint
 
 APP = typer.Typer()
 
@@ -50,7 +50,7 @@ def human_output(df: pandas.DataFrame, include_descriptions: bool):
         line = f"[blue]{row[1]}[/blue]: {response}"
         if include_descriptions:
             line += f"\n\t{row[2]}\n"
-        print(line)
+        rprint(line)
 
 
 def json_output(df: pandas.DataFrame):
