@@ -12,7 +12,7 @@
 		"SBOMLocation": "file:///C:\\Users\\dick\\ReliableEnergyAnalytics\\PATENTS\\SAG\\SAGMVP\\SAG-PM\\OPEN-SOURCE\\CISASAGReader\\CISASAGReader-1_0_2-SBOM.json",
 		"SBOMTimestamp": "2024-12-07T09:26:44Z",
 		"SBOMTotalComponentCount": "8",
-		"SupplierName": "Organization: BUSINESS CYBER GUARDIAN (Reliable Energy Analytics LLC)",
+		"SupplierName": "Organization:BUSINESS CYBER GUARDIAN (Reliable Energy Analytics LLC)",
 		"VulnDisclosureCreateDate": "2024-12-07T14:32:28.930376+00:00"
 	},
 	"Components": [
@@ -20,7 +20,7 @@
 			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=sag-reader+1.0.2",
 			"ComponentID": "",
 			"ComponentName": "sag-reader",
-			"ComponentSupplierName": "Organization: BUSINESS CYBER GUARDIAN (Reliable Energy Analytics LLC)",
+			"ComponentSupplierName": "Organization:BUSINESS CYBER GUARDIAN (Reliable Energy Analytics LLC)",
 			"ComponentVersion": "1.0.2",
 			"NumberVulnsReported": "0"
 		},
