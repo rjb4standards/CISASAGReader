@@ -1,6 +1,9 @@
 # CISASAGReader
 Python app to read CISA Software Acquisition Guide Spreadsheets based on CISA format https://cisa.gov/sag
 
+SBOM: SPDX Version 2.3 in JSON format
+VDR: Follows open-source VDR format https://github.com/rjb4standards/REA-Products/blob/master/SAGVulnDisclosure.xsd using JSON output format
+
 ## Installation
 You may use `pip` or `pipx` (https://pipx.pypa.io/stable/) to install the CISASAGReader.
 
