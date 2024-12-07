@@ -1,0 +1,2 @@
+Vendor_Name,Product_Name,Version,Source_Location_URL,SL_CN_Name,SL_CA_Name,Access_Control,NATF_Response_File_URL,X509SKID,PGPFingerprint,NATF_ResponseDigSigURL
+BUSINESS CYBER GUARDIAN (Reliable Energy Analytics LLC),sag-reader,1.0.2,https://pypi.org/manage/project/sag-reader/release/1.0.2/,pypi.org,GlobalSign Atlas R3 DV TLS CA 2024 Q2,None,https://raw.githubusercontent.com/rjb4standards/CISASAGReader/refs/heads/main/CISASAGReader-VRF-V1_0_2-VRF.json,,,
