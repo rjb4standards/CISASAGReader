@@ -9,7 +9,7 @@
     "created": "2024-12-07T09:26:44Z",
     "licenseListVersion": "3.22"
   },
-  "name": "Python-requirements.dev.txt",
+  "name": "CISASAGReader",
   "dataLicense": "CC0-1.0",
   "documentNamespace": "http://spdx.org/spdxdocs/Python-requirements.dev.txt-e807119d-2c65-4e1f-84b8-98aeef02b821",
   "packages": [
