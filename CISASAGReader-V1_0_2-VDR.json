@@ -20,7 +20,7 @@
 			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=sag-reader+1.0.2",
 			"ComponentID": "",
 			"ComponentName": "sag-reader",
-			"ComponentSupplierName": "Organization: Business Cyber Guardian",
+			"ComponentSupplierName": "Organization: BUSINESS CYBER GUARDIAN (Reliable Energy Analytics LLC)",
 			"ComponentVersion": "1.0.2",
 			"NumberVulnsReported": "0"
 		},
