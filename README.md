@@ -1,7 +1,8 @@
 # CISASAGReader
 Python app to read CISA Software Acquisition Guide Spreadsheets based on CISA format https://cisa.gov/sag
 
-SAGSCORE Trust Label: https://softwareassuranceguardian.com/SAGCTR_inquiry/getTrustedProductLabel?ProductID=9429E05DF9DDA377F4CF0359904ED020B2AA67C54E945C8F0DAD84B6FFDF3AB1&html=1 
+V 1.0.2 SAGSCORE Trust Label: https://softwareassuranceguardian.com/SAGCTR_inquiry/getTrustedProductLabel?ProductID=9429E05DF9DDA377F4CF0359904ED020B2AA67C54E945C8F0DAD84B6FFDF3AB1&html=1 
+V 1.0.3 SAGSCore Trust Label: https://softwareassuranceguardian.com/SAGCTR_inquiry/getTrustedProductLabel?ProductID=5D60680109AAC8DDEED1DD2D0D709179799E6CDC1C2FF918CD371A26D04079A8&html=1 
 
 SBOM: SPDX Version 2.3 in JSON format
 VDR: Follows open-source VDR format https://github.com/rjb4standards/REA-Products/blob/master/SAGVulnDisclosure.xsd using JSON output format
