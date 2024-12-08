@@ -34,22 +34,22 @@ def human_output(df: pandas.DataFrame, include_descriptions: bool):
         response: str = None
         match row[3]:
             case "Yes":
-                response = "[bold green]Yes[/bold green]"
+                response = "[bold bright_green]Yes[/bold bright_green]"
             case "No":
-                response = "[bold red]No[/bold red]"
+                response = "[bold bright_red]No[/bold bright_red]"
             case "Partial":
-                response = "[bold yellow]Partial[/bold yellow]"
+                response = "[bold bright_yellow]Partial[/bold bright_yellow]"
             case "N/A":
-                response = "N/A"
+                response = "[bright_white]N/A[/bright_white]"
             case _ if pandas.isna(row[3]):
-                response = ""
+                response = "[bold bright_magenta]No Response[/bold bright_magenta]"
         if last_section != (section := row[1].split(".")[1]):
             if last_section is not None:
                 typer.confirm("Continue?", abort=True, default=True, prompt_suffix="")
             last_section = section
-        line = f"[blue]{row[1]}[/blue]: {response}"
+        line = f"[bright_blue]{row[1]}[/bright_blue]: {response}"
         if include_descriptions:
-            line += f"\n\t{row[2]}\n"
+            line += f"\n\t[grey62]{row[2]}[/grey62]\n"
         rich.print(line)
 
 
