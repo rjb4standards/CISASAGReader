@@ -6,7 +6,7 @@ SAGSCORE Trust Label: https://softwareassuranceguardian.com/SAGCTR_inquiry/getTr
 SBOM: SPDX Version 2.3 in JSON format
 VDR: Follows open-source VDR format https://github.com/rjb4standards/REA-Products/blob/master/SAGVulnDisclosure.xsd using JSON output format
 
-The CISASAGReader product also serves as a *role model* for what a Secure by Design solution *should* provide to satisfy the Secure by Design transparency principle by providing consumers with artifacts to enable a comprehensive software risk assessment, such as an SBOM, living Vulnerability Disclosure Report (VDR), Vendor Response File (VRF) listing additional company information and SDLC policy details, and the Software Acquisition Guide Spreadsheet completed by the software producer.
+The CISASAGReader product also serves as a *role model* for what a Secure by Design solution *should* provide to satisfy the Secure by Design transparency principle by providing consumers with artifacts to enable a comprehensive software risk assessment, such as an SBOM, living Vulnerability Disclosure Report (VDR), Vendor Response File (VRF) listing additional company information and SDLC policy details, and the CISA Software Acquisition Guide Spreadsheet completed by the software producer.
 
 ## Installation
 You may use `pip` or `pipx` (https://pipx.pypa.io/stable/) to install the CISASAGReader.
