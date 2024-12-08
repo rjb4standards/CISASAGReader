@@ -1,0 +1,84 @@
+{
+	"SBOMVulnerabilityDisclosure": {
+		"CVERespository": "NIST_NVD",
+		"NISTNVDSearchStatus": "Success",
+		"UnresolvedVulnerabilities": "N",
+		"PackageSourceLocation": "https://pypi.org/project/sag-reader/1.0.3/#files",
+		"ProductName": "sag-reader",
+		"ProductVersion": "1.0.3",
+		"SBOMAuthor": "['Tool: sbom4python-0.11.3']",
+		"SBOMFormat": "spdx",
+		"SBOMFormatSyntax": "JSON",
+		"SBOMLocation": "file:///C:\\Users\\dick\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\CISASAGReader-1_0_3-SBOM.json",
+		"SBOMTimestamp": "2024-12-08T12:47:51Z",
+		"SBOMTotalComponentCount": "8",
+		"SupplierName": "Organization: BUSINESS CYBER GUARDIAN (Reliable Energy Analytics LLC)",
+		"VulnDisclosureCreateDate": "2024-12-08T17:53:34.400642+00:00"
+	},
+	"Components": [
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=sag-reader+1.0.3",
+			"ComponentID": "",
+			"ComponentName": "sag-reader",
+			"ComponentSupplierName": "Organization: BUSINESS CYBER GUARDIAN (Reliable Energy Analytics LLC)",
+			"ComponentVersion": "1.0.3",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=build+1.2.2.post1",
+			"ComponentID": "",
+			"ComponentName": "build",
+			"ComponentSupplierName": "Organization: Python Packaging Authority (info@pypa.io)",
+			"ComponentVersion": "1.2.2.post1",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=openpyxl+3.1.5",
+			"ComponentID": "",
+			"ComponentName": "openpyxl",
+			"ComponentSupplierName": "NOASSERTION",
+			"ComponentVersion": "3.1.5",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=pandas+2.2.3",
+			"ComponentID": "",
+			"ComponentName": "pandas",
+			"ComponentSupplierName": "Person: pandas (pandas-dev@python.org)",
+			"ComponentVersion": "2.2.3",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=pytest+8.3.4",
+			"ComponentID": "",
+			"ComponentName": "pytest",
+			"ComponentSupplierName": "Person: dev (pytest-dev@python.org)",
+			"ComponentVersion": "8.3.4",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=twine+6.0.1",
+			"ComponentID": "",
+			"ComponentName": "twine",
+			"ComponentSupplierName": "Organization: Python Packaging Authority (info@pypa.io)",
+			"ComponentVersion": "6.0.1",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=typer+0.15.1",
+			"ComponentID": "",
+			"ComponentName": "typer",
+			"ComponentSupplierName": "Person: fastapi",
+			"ComponentVersion": "0.15.1",
+			"NumberVulnsReported": "0"
+		},
+		{
+			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=xlrd+2.0.1",
+			"ComponentID": "",
+			"ComponentName": "xlrd",
+			"ComponentSupplierName": "NOASSERTION",
+			"ComponentVersion": "2.0.1",
+			"NumberVulnsReported": "0"
+		}
+	]
+}
