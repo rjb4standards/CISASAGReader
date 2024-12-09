@@ -8,13 +8,20 @@ description = "Python app to read CISA Software Acquisition Guide Spreadsheets b
 readme = "README.md"
 license = { file = "LICENSE" }
 classifiers = [
-    "License :: Other/Proprietary License",
+    "Development Status :: 5 - Production/Stable",
+    "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
+    "Topic :: Utilities",
 ]
 requires-python = ">=3.10"
+authors = [
+    { name = "Richard (Dick) Brooks", email = "dick@reliableenergyanalytics.com" },
+    { name = "Joseph Wortmann", email = "joseph.wortmann@gmail.com" },
+]
+keywords = ["Software Acquisition Guide", "CISA", "Secure by Design"]
 dynamic = ["version"]
 
 dependencies = [
@@ -29,6 +36,12 @@ sag-reader = "sag_reader:main"
 
 [project.optional-dependencies]
 # If you have any optional dependencies, they would be listed here.
+
+[project.urls]
+Homepage = "https://github.com/rjb4standards/CISASAGReader"
+Repository = "https://github.com/rjb4standards/CISASAGReader.git"
+Issues = "https://github.com/rjb4standards/CISASAGReader/issues"
+
 
 [tool.setuptools.packages.find]
 include = ["*"]
