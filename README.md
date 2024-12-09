@@ -17,7 +17,7 @@ We recommend installing it with `pipx` for ease of use after installation.
 
 Simply run
 ```sh
-pipx install sag-reader`
+pipx install sag-reader
 ```
 
 ## Use
