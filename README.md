@@ -15,30 +15,43 @@ You may use `pip` or `pipx` (https://pipx.pypa.io/stable/) to install the CISASA
 
 We recommend installing it with `pipx` for ease of use after installation.
 
-Simply run `pipx install sag-reader`.
+Simply run
+```sh
+pipx install sag-reader`
+```
 
 ## Use
 Assuming that you installed the CISASAGReader with `pipx`, running it is as simple as
 running `sag-reader` from the command line.
 
-To get information on usage, simple run `sag-reader --help`.
+To get information on usage, simply run
 
-### Try it out for yourself. 
+```sh
+sag-reader --help
+```
+
+### Try it out for yourself.
 *Download the CISASAGReader spreadsheet here*: https://github.com/rjb4standards/CISASAGReader/raw/refs/heads/main/CISASAGReader-spreadsheet.xlsx
 
 *Run sag-reader to view the CISASAGReader Secure by Design responses in the dowloaded spreadsheet*:
 
-### sag-reader --include-descriptions CISASAGReader-spreadsheet.xlsx 
+```sh
+sag-reader --include-descriptions CISASAGReader-spreadsheet.xlsx
+```
 
 ## Output
 The CISASAGReader will parse Excel files (.xlsx and .xls) in the CISA format. It will remove those answers that the spreadsheet indicates do not have to be answered to reduce overall noise.
 
 Output is human-readable by default. However, the `sag-reader` application can also be used to produce output in a JSON format that may be used in downstream processing, such as automated risk analysis, datalake inclusion for population analysis, or simple inclusion in a database for electronic recall and display. For example:
 
+```sh
 sag-reader spreadsheet.xls json
+```
 
 JSON output is hierarchical by CONTROL or TASK, then the designator broken up by its components. Leaf values in the resultant tree are the values entered on the spreadsheet.
 
 Descriptions are not included in the JSON output or the human-readable output by default. They may be turned on for the human-readable output, for example:
 
+```sh
 sag-reader --include-descriptions spreadsheet.xls
+```
