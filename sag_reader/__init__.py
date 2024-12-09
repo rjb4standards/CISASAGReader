@@ -1,5 +1,9 @@
-# Copyright 2018-2024 Business Cyber Guardian a Reliable Energy Analytics LLC Compant
-# Provided under MIT Licensing Terms
+"""
+Reads, analyzes, and reports on a CISA Software Acquisition Guide.
+Copyright 2018-2024 Business Cyber Guardian a Reliable Energy Analytics LLC Compant
+Provided under MIT Licensing Terms
+"""
+
 import json
 from enum import StrEnum
 from pathlib import Path
@@ -13,8 +17,10 @@ APP = typer.Typer()
 
 
 class Output(StrEnum):
-    human = "human"
-    json = "json"
+    """Output format."""
+
+    HUMAN = "human"
+    JSON = "json"
 
 
 def check_filename(p: Path) -> Path:
@@ -29,6 +35,7 @@ def check_filename(p: Path) -> Path:
 
 
 def human_output(df: pandas.DataFrame, include_descriptions: bool):
+    """Output the data in a human-readable format."""
     last_section: str = None
     for row in df.itertuples():
         response: str = None
@@ -54,6 +61,7 @@ def human_output(df: pandas.DataFrame, include_descriptions: bool):
 
 
 def json_output(df: pandas.DataFrame):
+    """Output the data in a JSON format."""
     output: dict[str, str] = {}
     for row in df.itertuples():
         components = row[1].split(".")
@@ -79,11 +87,12 @@ def read_sag(
         typer.Argument(
             help="Output format.",
         ),
-    ] = Output.human,
+    ] = Output.HUMAN,
     include_descriptions: Annotated[
         bool, typer.Option(help="Add descriptions to human output.", show_default=True)
     ] = False,
 ):
+    """Read a CISA Software Acquisition Guide."""
     with filename.open("rb") as f:
         sag = pandas.read_excel(
             f,
@@ -116,11 +125,12 @@ def read_sag(
             df = df.iloc[:, :-1]
             df.columns = ["A", "B", "C"]
             sag = pandas.concat([sag, df], ignore_index=True)
-    if output == Output.human:
+    if output == Output.HUMAN:
         human_output(sag, include_descriptions)
     else:
         json_output(sag)
 
 
 def main():
+    """Main entry point."""
     APP()
