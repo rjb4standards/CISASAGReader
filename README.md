@@ -23,6 +23,13 @@ running `sag-reader` from the command line.
 
 To get information on usage, simple run `sag-reader --help`.
 
+### Try it out for yourself. 
+*Download the CISASAGReader spreadsheet here*: https://github.com/rjb4standards/CISASAGReader/raw/refs/heads/main/CISASAGReader-spreadsheet.xlsx
+
+*Run sag-reader to view the CISASAGReader Secure by Design responses in the dowloaded spreadsheet*:
+
+### sag-reader --include-descriptions CISASAGReader-spreadsheet.xlsx 
+
 ## Output
 The CISASAGReader will parse Excel files (.xlsx and .xls) in the CISA format. It will remove those answers that the spreadsheet indicates do not have to be answered to reduce overall noise.
 
