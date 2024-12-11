@@ -14,7 +14,7 @@ The CISASAGReader product also serves as a *role model* for what a Secure by Des
 
 ## How long did it take to produce the CISASAGReader SBOM, VDR, VRF and CISA Software Acquistion Guide Spreadsheet?
 
-| **Artifact**   | **Duration** | **Tool Used ** |  
+| **Artifact**   | **Duration** | **Tool Used** |  
 |:----------:|:-----:| -------------------:
 | SBOM | 10 minutes | sbom4python |
 | VDR | 15 minutes | SAG-PM and open source VDR schema |
