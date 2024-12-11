@@ -5,6 +5,8 @@ V 1.0.2 SAGSCORE Trust Label: https://softwareassuranceguardian.com/SAGCTR_inqui
 
 V 1.0.3 SAGSCore Trust Label: https://softwareassuranceguardian.com/SAGCTR_inquiry/getTrustedProductLabel?ProductID=5D60680109AAC8DDEED1DD2D0D709179799E6CDC1C2FF918CD371A26D04079A8&html=1
 
+V 1.0.4 SAGSCore Trust LAbel: https://softwareassuranceguardian.com/SAGCTR_inquiry/getTrustedProductLabel?ProductID=3CFC1693E63CE1D3D85C6853C1F1460C94A48BB4CC48DADDC7F067563F9A5A28&html=1 
+
 SBOM: SPDX Version 2.3 in JSON format
 VDR: Follows open-source VDR format https://github.com/rjb4standards/REA-Products/blob/master/SAGVulnDisclosure.xsd using JSON output format
 
