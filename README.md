@@ -21,6 +21,8 @@ The CISASAGReader product also serves as a *role model* for what a Secure by Des
 | VRF | 45 minutes | notepad++ |
 | CISA SAG Spreadsheet | 50 minutes | Excel |
 
+Registering the Trust Label in SAG-CTR required a risk assessment and evaluation of the RA results ( 90 minutes ) due to the small size of CISASAGReader and no reported vulnerabilities.
+
 ## Installation
 You may use `pip` or `pipx` (https://pipx.pypa.io/stable/) to install the CISASAGReader.
 
