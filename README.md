@@ -12,9 +12,9 @@ VDR: Follows open-source VDR format https://github.com/rjb4standards/REA-Product
 
 The CISASAGReader product also serves as a *role model* for what a Secure by Design solution *should* provide to satisfy the Secure by Design transparency principle by providing consumers with artifacts to enable a comprehensive software risk assessment, such as an SBOM, living Vulnerability Disclosure Report (VDR), Vendor Response File (VRF) listing additional company information and SDLC policy details, and the CISA Software Acquisition Guide Spreadsheet completed by the software producer.
 
-## How long did it take to produce the CISASAGReader SBOM, VDR, VRF and CISA Software Acquistiion Guide Spreadsheet?
+## How long did it take to produce the CISASAGReader SBOM, VDR, VRF and CISA Software Acquistion Guide Spreadsheet?
 
-| **Artifact**   | **Duration** | **Tool Used **|  
+| **Artifact**   | **Duration** | **Tool Used ** |  
 |:----------:|:-----:| -------------------:
 | SBOM | 10 minutes | sbom4python |
 | VDR | 15 minutes | SAG-PM and open source VDR schema |
