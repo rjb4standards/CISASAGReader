@@ -16,12 +16,12 @@ The CISASAGReader product also serves as a *role model* for what a Secure by Des
 
 | **Artifact**   | **Duration** | **Tool Used** |  
 |:----------:|:-----:| -------------------:
-| SBOM | 10 minutes | sbom4python |
-| VDR | 15 minutes | SAG-PM and open source VDR schema |
-| VRF | 45 minutes | notepad++ |
-| CISA SAG Spreadsheet | 50 minutes | Excel |
+| [SBOM](https://raw.githubusercontent.com/rjb4standards/CISASAGReader/refs/heads/main/CISASAGReader-V1_0_4-SBOM.json) | 10 minutes | sbom4python |
+| [VDR](https://raw.githubusercontent.com/rjb4standards/CISASAGReader/refs/heads/main/CISASAGReader-V1_0_4-VDR.json) | 15 minutes | SAG-PM and open source VDR schema |
+| [VRF](https://raw.githubusercontent.com/rjb4standards/CISASAGReader/refs/heads/main/CISASAGReader-VRF.json) | 45 minutes | notepad++ |
+| [CISA SAG Spreadsheet](https://github.com/rjb4standards/CISASAGReader/raw/refs/heads/main/CISASAGReader-spreadsheet.xlsx) | 50 minutes | Excel |
 
-Registering the Trust Label in SAG-CTR required a risk assessment and evaluation of the RA results ( 90 minutes ) due to the small size of CISASAGReader and no reported vulnerabilities.
+Registering the [Trust Label](https://softwareassuranceguardian.com/SAGCTR_inquiry/getTrustedProductLabel?ProductID=3CFC1693E63CE1D3D85C6853C1F1460C94A48BB4CC48DADDC7F067563F9A5A28&html=1) in SAG-CTR required a risk assessment and evaluation of the RA results ( 90 minutes ) due to the small size of CISASAGReader and no reported vulnerabilities.
 
 ## Installation
 You may use `pip` or `pipx` (https://pipx.pypa.io/stable/) to install the CISASAGReader.
