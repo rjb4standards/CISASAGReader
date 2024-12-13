@@ -10,8 +10,8 @@ Could this group of artifacts provided with the CISASAGReader open-source produc
 | **Artifact**   | **Duration** | **Tool Used** |  
 |:----------:|:-----:| -------------------:
 | [SBOM](https://raw.githubusercontent.com/rjb4standards/CISASAGReader/refs/heads/main/CISASAGReader-V1_0_4-SBOM.json) | 10 minutes | sbom4python |
-| [VDR](https://raw.githubusercontent.com/rjb4standards/CISASAGReader/refs/heads/main/CISASAGReader-V1_0_4-VDR.json) | 15 minutes | SAG-PM and open source VDR schema |
-| [VRF](https://raw.githubusercontent.com/rjb4standards/CISASAGReader/refs/heads/main/CISASAGReader-VRF.json) | 45 minutes | notepad++ |
+| [VDR](https://raw.githubusercontent.com/rjb4standards/CISASAGReader/refs/heads/main/CISASAGReader-V1_0_4-VDR.json) | 15 minutes | SAG-PM and [open source VDR schema](https://raw.githubusercontent.com/rjb4standards/REA-Products/refs/heads/master/SAGVulnDisclosure.xsd) |
+| [VRF](https://raw.githubusercontent.com/rjb4standards/CISASAGReader/refs/heads/main/CISASAGReader-VRF.json) | 45 minutes | notepad++ and [open source VRF schema(https://raw.githubusercontent.com/rjb4standards/REA-Products/refs/heads/master/SAGVendorSchema.xsd)|
 | [CISA SAG Spreadsheet](https://github.com/rjb4standards/CISASAGReader/raw/refs/heads/main/CISASAGReader-spreadsheet.xlsx) | 50 minutes | Excel |
 
 Registering the [Trust Label](https://softwareassuranceguardian.com/SAGCTR_inquiry/getTrustedProductLabel?ProductID=3CFC1693E63CE1D3D85C6853C1F1460C94A48BB4CC48DADDC7F067563F9A5A28&html=1) in SAG-CTR required a risk assessment and evaluation of the RA results ( 90 minutes ) due to the small size of CISASAGReader and no reported vulnerabilities.
