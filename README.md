@@ -74,4 +74,6 @@ VRF: Implements [open source VRF schema](https://raw.githubusercontent.com/rjb4s
 
 SAG Spreadsheet: Implements [CISA Software Acquisition Guide spreadsheet](https://cisa.gov/sag) in Excel format
 
+When people ask me how to check that a vendor/product is following CISA Secure by Design principles and practices, [**here is what I tell them**](https://www.linkedin.com/posts/richard-dick-brooks-8078241_when-people-ask-how-to-i-check-that-a-software-activity-7273376285282783233-NVJx?utm_source=share&utm_medium=member_desktop)
+
 
