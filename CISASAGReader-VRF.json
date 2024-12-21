@@ -88,7 +88,7 @@
 				"UnsolvedVulnerabilities": "N",
 				"KnownVulnInfoURL": {
 					"DocFormat": "JSON",
-					"DigitalSignatureURL": "",
+					"DigitalSignatureURL": "https://github.com/rjb4standards/CISASAGReader/raw/refs/heads/main/CISASAGReader-V1_0_4-VDR.json.sig",
 					"URL": "https://raw.githubusercontent.com/rjb4standards/CISASAGReader/refs/heads/main/CISASAGReader-V1_0_4-VDR.json"
 				},
 				"SDLCPolicyURL": "https://github.com/rjb4standards/CISASAGReader/raw/refs/heads/main/CISASAGReader-spreadsheet.xlsx",
