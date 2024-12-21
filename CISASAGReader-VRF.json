@@ -80,7 +80,7 @@
 					"type": "spdx",
 					"version": "2.3",
 					"format": "JSON",
-					"DigitalSignatureURL": "",
+					"DigitalSignatureURL": "https://github.com/rjb4standards/CISASAGReader/raw/refs/heads/main/CISASAGReader-V1_0_4-SBOM.json.sig",
 					"URL": "https://raw.githubusercontent.com/rjb4standards/CISASAGReader/refs/heads/main/CISASAGReader-V1_0_4-SBOM.json"
 				},
 				"SourceLocationURL": "https://pypi.org/project/sag-reader/1.0.4/#files",
