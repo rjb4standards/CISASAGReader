@@ -1,5 +1,5 @@
 # CISASAGReader
-Python app to read CISA Software Acquisition Guide Spreadsheets based on CISA format https://cisa.gov/sag
+Python app to read and automate the processing of CISA Software Acquisition Guide Spreadsheets based on CISA format https://cisa.gov/sag
 
 The CISASAGReader product also serves as a *role model* for what a Secure by Design solution *should* provide to satisfy the Secure by Design transparency principle by providing consumers with artifacts to enable a comprehensive software risk assessment, such as an SBOM, living Vulnerability Disclosure Report (VDR), Vendor Response File (VRF) listing additional company information and SDLC policy details, and the CISA Software Acquisition Guide Spreadsheet completed by the software producer. **A final risk assessment report of the CISASAGReader open-source product is available on request, per the EU-CRA requirements** [via e-mail with the subject line "Request for CISASAGReader Risk Assessment Final Report"](mailto:dick@businesscyberguardian.com)
 
