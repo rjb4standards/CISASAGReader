@@ -3,6 +3,8 @@ Python app to read and automate the processing of CISA Software Acquisition Guid
 
 The CISASAGReader product also serves as a *role model* for what a Secure by Design solution *should* provide to satisfy the Secure by Design transparency principle by providing consumers with artifacts to enable a comprehensive software risk assessment, such as an SBOM, living Vulnerability Disclosure Report (VDR), Vendor Response File (VRF) listing additional company information and SDLC policy details, and the CISA Software Acquisition Guide Spreadsheet completed by the software producer. **A final risk assessment report of the CISASAGReader open-source product is available on request, per the EU-CRA requirements** [via e-mail with the subject line "Request for CISASAGReader Risk Assessment Final Report"](mailto:dick@businesscyberguardian.com)
 
+[What does it mean to be "Secure by Default" and "Secure by Design" based on CISA Guidance](https://www.linkedin.com/posts/richard-dick-brooks-8078241_when-people-ask-me-what-does-it-mean-for-activity-7279899394475192322-es0a?utm_source=share&utm_medium=member_desktop)
+
 Could this group of artifacts provided with the CISASAGReader open-source product (see tble below) also serve as a model for what ***Open Source Stewards*** should provide to satisfy EU-CRA expectations for transparency and Secure by Design/Default?
 
 ## How long did it take to produce the CISASAGReader SBOM, VDR, VRF and CISA Software Acquistion Guide Spreadsheet?
