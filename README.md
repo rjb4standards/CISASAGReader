@@ -80,13 +80,18 @@ When people ask me how to check that a vendor/product is following CISA Secure b
 
 Here is a simple windows batch file to process all SAG Spreadsheets in a folder
 ```sh
+REM Requires variable expansion to be enabled cmd /V
 @echo off
 setlocal
 
+set "ResultFile=result.txt"
 set "folder_path=C:\users\dick\SAGSPDfiles"
-
 for %%f in (%folder_path%\*) do ( 
 echo "PROCESSING FILE: " %%f
 pause  
-sag-reader --include-descriptions %%f )
+call sag-reader --include-descriptions %%f 
+set /P "PassFail=Pass or Fail?"
+echo %%f,!PassFail!, %DATE%, %TIME% >> %ResultFile%)
+echo Results are stored in: %ResultFile%
+
 ```
