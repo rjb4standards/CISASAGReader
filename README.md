@@ -84,7 +84,7 @@ REM Requires variable expansion to be enabled cmd /V
 @echo off
 setlocal
 
-set "ResultFile=result.txt"
+set "ResultFile=SAGresults.txt"
 set "folder_path=C:\users\dick\SAGSPDfiles"
 for %%f in (%folder_path%\*) do ( 
 echo "PROCESSING FILE: " %%f
