@@ -9,6 +9,8 @@ Could this group of artifacts provided with the CISASAGReader open-source produc
 
 This README document along with the other artifacts listed in the table below aim to satisfy the set of technical documentation cited in Article 31 and the EU CRA **"Declaration of Conformity"** expectations requried by [EU-CRA Annex VII](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_VII)
 
+The SCRM practices implemented during the creation of this product followed the Supply Chain Risk Management (SCRM) implementation guidance provided by the US National Aeronatutics and Space Administration [NASA SCRM Guidance Materials](https://www.nasa.gov/secure-software-development-self-attestation-resources-and-knowledge/)
+
 ## How long did it take to produce the CISASAGReader SBOM, VDR, VRF and CISA Software Acquistion Guide Spreadsheet?
 
 | **Artifact**   | **Duration** | **Tool Used** |  
