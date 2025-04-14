@@ -79,6 +79,8 @@ VDR: Implements [open-source VDR schema](https://raw.githubusercontent.com/rjb4s
 
 VRF: Implements [open source VRF schema](https://raw.githubusercontent.com/rjb4standards/REA-Products/refs/heads/master/SAGVendorSchema.xsd) using JSON output format
 
+CISA Secure Software Attestation Form implements [DOE Secure Software Form F 205.2](https://www.energy.gov/cio/doe-f-2052-secure-software-development-attestation) in PDF format
+
 SAG Spreadsheet: Implements [CISA Software Acquisition Guide spreadsheet](https://cisa.gov/sag) in Excel format
 
 When people ask me how to check that a vendor/product is following CISA Secure by Design principles and practices, [**here is what I tell them**](https://www.linkedin.com/posts/richard-dick-brooks-8078241_when-people-ask-how-to-i-check-that-a-software-activity-7273376285282783233-NVJx?utm_source=share&utm_medium=member_desktop). People looking for a good model to procure trustworthy software products should consider this [procurement guidance from NASA](https://energycentral.com/c/iu/caveat-emptor-software-consumers-has-arrived)
