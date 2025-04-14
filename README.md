@@ -11,7 +11,7 @@ This README document along with the other artifacts listed in the table below ai
 
 The SCRM practices implemented during the creation of this product followed the Supply Chain Risk Management (SCRM) implementation guidance provided by the US National Aeronatutics and Space Administration [NASA SCRM Guidance Materials](https://www.nasa.gov/secure-software-development-self-attestation-resources-and-knowledge/)
 
-## How long did it take to produce the CISASAGReader SBOM, VDR, VRF and CISA Software Acquistion Guide Spreadsheet?
+## How long did it take to produce the CISASAGReader SBOM, VDR, VRF and CISA Software Acquistion Guide Spreadsheet Attestation Artifacts?
 
 | **Artifact**   | **Duration** | **Tool Used** |  
 |:----------:|:-----:| -------------------:
