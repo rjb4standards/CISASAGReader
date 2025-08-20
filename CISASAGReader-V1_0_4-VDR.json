@@ -6,14 +6,14 @@
 		"PackageSourceLocation": "https://pypi.org/project/sag-reader/1.0.4/#files",
 		"ProductName": "sag-reader",
 		"ProductVersion": "1.0.4",
-		"SBOMAuthor": "['Tool: sbom4python-0.11.3']",
+		"SBOMAuthor": "['Tool: sbom4python-0.11.3', 'Organization: BUSINESS CYBER GUARDIAN (Reliable Energy Analytics LLC)']",
 		"SBOMFormat": "spdx",
 		"SBOMFormatSyntax": "JSON",
 		"SBOMLocation": "https://raw.githubusercontent.com/rjb4standards/CISASAGReader/refs/heads/main/CISASAGReader-V1_0_4-SBOM.json",
 		"SBOMTimestamp": "2024-12-10T08:52:26Z",
 		"SBOMTotalComponentCount": "8",
 		"SupplierName": "Organization: BUSINESS CYBER GUARDIAN (Reliable Energy Analytics LLC)",
-		"VulnDisclosureCreateDate": "2025-07-03T19:33:28.075703+00:00"
+		"VulnDisclosureCreateDate": "2025-08-20T14:48:34.551424+00:00"
 	},
 	"Components": [
 		{
