@@ -22,23 +22,7 @@
 			"ComponentName": "sag-reader",
 			"ComponentSupplierName": "Organization: BUSINESS CYBER GUARDIAN (Reliable Energy Analytics LLC)",
 			"ComponentVersion": "1.0.4",
-			"NumberVulnsReported": "1",
-			"CVE": [
-				{
-					"CVEID": "ProprietaryID-2025-1411",
-					"CVSS": "8.0",
-					"CVEDescription": "Example of a proprietary vulnerability report - private only",
-					"Exploitable": "Y",
-					"CISAKEV": "--NOT CISA KEV--",
-					"DisruptionImpact": "Low",
-					"FixStatus": "In Development",
-					"AnalysisFindings": "LOTL VULNERABILITY: Discovered during internal testing. Fix coming before 1/1/2026",
-					"SecurityAdvisoryURL": "https://businesscyberguardian.com/"
-
-				}
-
-			]
-
+			"NumberVulnsReported": "0"
 		},
 		{
 			"CVESearchString": "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=openpyxl+3.1.5",
