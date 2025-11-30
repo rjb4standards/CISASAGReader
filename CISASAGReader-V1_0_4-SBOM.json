@@ -4,7 +4,8 @@
 	"creationInfo": {
 		"comment": "This document has been automatically generated.",
 		"creators": [
-			"Tool: sbom4python-0.11.3"
+			"Tool: sbom4python-0.11.3",
+			"Organization: BUSINESS CYBER GUARDIAN (Reliable Energy Analytics LLC)"
 		],
 		"created": "2024-12-10T08:52:26Z",
 		"licenseListVersion": "3.22"
