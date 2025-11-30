@@ -11,14 +11,15 @@ This README document along with the other artifacts listed in the table below ai
 
 The SCRM practices implemented during the creation of this product followed the Supply Chain Risk Management (SCRM) implementation guidance provided by the US National Aeronatutics and Space Administration [NASA SCRM Guidance Materials](https://www.nasa.gov/secure-software-development-self-attestation-resources-and-knowledge/)
 
-## How long did it take to produce the CISASAGReader SBOM, VDR, VRF and CISA Software Acquistion Guide Spreadsheet?
+## How long did it take to produce the CISASAGReader SBOM, VDR, VRF and CISA Software Acquistion Guide Spreadsheet Attestation Artifacts?
 
 | **Artifact**   | **Duration** | **Tool Used** |  
 |:----------:|:-----:| -------------------:
-| [SBOM](https://raw.githubusercontent.com/rjb4standards/CISASAGReader/refs/heads/main/CISASAGReader-V1_0_4-SBOM.json) | 10 minutes | sbom4python |
-| [VDR](https://raw.githubusercontent.com/rjb4standards/CISASAGReader/refs/heads/main/CISASAGReader-V1_0_4-VDR.json) | 15 minutes | SAG-PM and [open source VDR schema](https://raw.githubusercontent.com/rjb4standards/REA-Products/refs/heads/master/SAGVulnDisclosure-V212.xsd) |
-| [VRF](https://raw.githubusercontent.com/rjb4standards/CISASAGReader/refs/heads/main/CISASAGReader-VRF.json) | 45 minutes | notepad++ and [open source VRF schema](https://raw.githubusercontent.com/rjb4standards/REA-Products/refs/heads/master/SAGVendorSchema.xsd)|
+| [Software Bill of Materials - SBOM](https://raw.githubusercontent.com/rjb4standards/CISASAGReader/refs/heads/main/CISASAGReader-V1_0_4-SBOM.json) | 10 minutes | sbom4python |
+| [Vulnerability Disclosure Report - VDR](https://raw.githubusercontent.com/rjb4standards/CISASAGReader/refs/heads/main/CISASAGReader-V1_0_4-VDR.json) | 15 minutes | SAG-PM and [open source VDR schema](https://raw.githubusercontent.com/rjb4standards/REA-Products/refs/heads/master/SAGVulnDisclosure.xsd) |
+| [Vendor Response Form - VRF](https://raw.githubusercontent.com/rjb4standards/CISASAGReader/refs/heads/main/CISASAGReader-VRF.json) | 45 minutes | notepad++ and [open source VRF schema](https://raw.githubusercontent.com/rjb4standards/REA-Products/refs/heads/master/SAGVendorSchema.xsd)|
 | [CISA SAG Spreadsheet](https://github.com/rjb4standards/CISASAGReader/raw/refs/heads/main/CISASAGReader-spreadsheet.xlsx) | 50 minutes | Excel |
+| [CISA Secure Software Attestation Form - DOE Version](https://github.com/rjb4standards/CISASAGReader/blob/main/CISASAGReader-Attestation-Form.pdf) | 25 minutes | Adobe Acrobat |
 
 Registering the [Trust Label](https://softwareassuranceguardian.com/SAGCTR_inquiry/getTrustedProductLabel?ProductID=3CFC1693E63CE1D3D85C6853C1F1460C94A48BB4CC48DADDC7F067563F9A5A28&html=1) with a "Trust Score" in the SAG-CTR(TM) product **Trust Registry** required a risk assessment and evaluation of the RA results ( 90 minutes ) due to the small size of CISASAGReader and no reported vulnerabilities. It's also imperative that people understand the differences between a "Risk Score" and a "Trust Score", [they are very different concepts](https://energycentral.com/c/um/understanding-difference-between-risk-scores-and-trust-scores). The IETF is working on a standard "Trust Registry" protocol within the Supply Chain Integrity, Transparency and Trust work group [SCITT](https://datatracker.ietf.org/doc/draft-ietf-scitt-software-use-cases/)
 
@@ -77,6 +78,8 @@ SBOM: Implements [SPDX Version 2.3](https://spdx.github.io/spdx-spec/v2.3/) in J
 VDR: Implements [open-source VDR schema](https://raw.githubusercontent.com/rjb4standards/REA-Products/refs/heads/master/SAGVulnDisclosure-V212.xsd) using JSON output format
 
 VRF: Implements [open source VRF schema](https://raw.githubusercontent.com/rjb4standards/REA-Products/refs/heads/master/SAGVendorSchema.xsd) using JSON output format
+
+CISA Secure Software Attestation Form implements [DOE Secure Software Form F 205.2](https://www.energy.gov/cio/doe-f-2052-secure-software-development-attestation) in PDF format
 
 SAG Spreadsheet: Implements [CISA Software Acquisition Guide spreadsheet](https://cisa.gov/sag) in Excel format
 
