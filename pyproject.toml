@@ -27,7 +27,7 @@ dynamic = ["version"]
 dependencies = [
     "openpyxl==3.1.5",
     "pandas==2.2.3",
-    "typer==0.15.2",
+    "typer==0.20.0",
     "xlrd==2.0.1",
 ]
 
