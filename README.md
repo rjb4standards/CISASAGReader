@@ -87,7 +87,7 @@ SAG Spreadsheet: Implements [CISA Software Acquisition Guide spreadsheet](https:
 
 When people ask me how to check that a vendor/product is following CISA Secure by Design principles and practices, [**here is what I tell them**](https://www.linkedin.com/posts/richard-dick-brooks-8078241_when-people-ask-how-to-i-check-that-a-software-activity-7273376285282783233-NVJx?utm_source=share&utm_medium=member_desktop). People looking for a good model to procure trustworthy software products should consider this [procurement guidance from NASA](https://energycentral.com/c/iu/caveat-emptor-software-consumers-has-arrived)
 
-Here is a simple windows batch file to process all SAG Spreadsheets in a folder
+Here is a simple windows batch file to process all SAG Spreadsheets in a folder (also downloadble here https://github.com/rjb4standards/CISASAGReader/blob/main/cisasagassess.bat) 
 ```sh
 REM Requires variable expansion to be enabled cmd /V
 @echo off
