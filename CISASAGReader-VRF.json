@@ -13,14 +13,14 @@
 		"ContactPerson": "Dick Brooks",
 		"DUNSNumber": "111509681",
 		"NAESBEIRID": "REAL",
-		"CyberSecPolicyURL": "https://raw.githubusercontent.com/rjb4standards/CISASAGReader/refs/heads/main/CyberSecPolicy.html",
-		"FinancialDataURL": "https://raw.githubusercontent.com/rjb4standards/CISASAGReader/refs/heads/main/FinancialData.html",
-		"CompanyDataURL": "https://raw.githubusercontent.com/rjb4standards/CISASAGReader/refs/heads/main/CompanyData.html",
+		"CyberSecPolicyURL": "https://rjb4standards.github.io/CISASAGReader/CyberSecPolicy.html",
+		"FinancialDataURL": "https://rjb4standards.github.io/CISASAGReader/FinancialData.html",
+		"CompanyDataURL": "https://rjb4standards.github.io/CISASAGReader/CompanyData.html",
 		"Products": [
 			{
 				"LicensorName": "BUSINESS CYBER GUARDIAN (Reliable Energy Analytics LLC)",
 				"ProductName": "sag-reader",
-				"DescriptionURL": "https://github.com/rjb4standards/CISASAGReader",
+				"DescriptionURL": "https://rjb4standards.github.io/CISASAGReader/",
 				"Version": "1.0.2",
 				"SBOM": {
 					"type": "spdx",
@@ -74,7 +74,7 @@
 			{
 				"LicensorName": "BUSINESS CYBER GUARDIAN (Reliable Energy Analytics LLC)",
 				"ProductName": "sag-reader",
-				"DescriptionURL": "https://github.com/rjb4standards/CISASAGReader",
+				"DescriptionURL": "https://rjb4standards.github.io/CISASAGReader/CISASAGReader",
 				"Version": "1.0.4",
 				"SBOM": {
 					"type": "spdx",
@@ -91,8 +91,8 @@
 					"DigitalSignatureURL": "https://github.com/rjb4standards/CISASAGReader/raw/refs/heads/main/CISASAGReader-V1_0_4-VDR.json.sig",
 					"URL": "https://raw.githubusercontent.com/rjb4standards/CISASAGReader/refs/heads/main/CISASAGReader-V1_0_4-VDR.json"
 				},
-				"SDLCPolicyURL": "https://github.com/rjb4standards/CISASAGReader/raw/refs/heads/main/CISASAGReader-Attestation-Form.pdf",
-				"SDLCEvidenceDataURL": "https://github.com/rjb4standards/CISASAGReader/raw/refs/heads/main/CISASAGReader-spreadsheet.xlsx",
+				"SDLCPolicyURL": "https://rjb4standards.github.io/CISASAGReader/CISASAGReader-Attestation-Form.pdf",
+				"SDLCEvidenceDataURL": "https://rjb4standards.github.io/CISASAGReader/CISASAGReader-spreadsheet.xlsx",
 				"CyberSecLabelURL": "https://softwareassuranceguardian.com/SAGCTR_inquiry/getTrustedProductLabel?ProductID=3CFC1693E63CE1D3D85C6853C1F1460C94A48BB4CC48DADDC7F067563F9A5A28&html=1",
 				"CommercialStatus": "Available",
 				"SupportStatus": "Supported",
