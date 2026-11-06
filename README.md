@@ -76,7 +76,7 @@ sag-reader --include-descriptions spreadsheet.xls
 
 ### Trust Label lookup using: curl -s https://softwareassuranceguardian.com/labellink/getTrustedProductLabel?ProductID=3CFC1693E63CE1D3D85C6853C1F1460C94A48BB4CC48DADDC7F067563F9A5A28
 
-### SAGSCore Trust Label: https://softwareassuranceguardian.com/SAGCTR_inquiry/getTrustedProductLabel?ProductID=3CFC1693E63CE1D3D85C6853C1F1460C94A48BB4CC48DADDC7F067563F9A5A28&html=1 
+### SAGSCore Trust Label: https://softwareassuranceguardian.com/labellink/getTrustedProductLabel?ProductID=3CFC1693E63CE1D3D85C6853C1F1460C94A48BB4CC48DADDC7F067563F9A5A28&html=1 
 
 SBOM: Implements [SPDX Version 2.3](https://spdx.github.io/spdx-spec/v2.3/) in JSON format
 
