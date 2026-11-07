@@ -79,9 +79,9 @@ sag-reader --include-descriptions spreadsheet.xls
 
 SBOM: Implements [SPDX Version 2.3](https://spdx.github.io/spdx-spec/v2.3/) in JSON format
 
-VDR: Implements [open-source VDR schema](https://raw.githubusercontent.com/rjb4standards/REA-Products/refs/heads/master/SAGVulnDisclosure-V212.xsd) using JSON output format
+VDR: Implements [open-source VDR schema](https://raw.githubusercontent.com/rjb4standards/REA-Products/refs/heads/master/JSON-SCHEMAS/SAG-VDR-SCHEMA.json) using JSON output format
 
-VRF: Implements [open source VRF schema](https://raw.githubusercontent.com/rjb4standards/REA-Products/refs/heads/master/SAGVendorSchema.xsd) using JSON output format
+VRF: Implements [open source VRF schema](https://raw.githubusercontent.com/rjb4standards/REA-Products/refs/heads/master/JSON-SCHEMAS/VRF-SCHEMA-FCCUSCTM.json) using JSON output format
 
 CISA Secure Software Attestation Form implements [DOE Secure Software Form F 205.2](https://www.energy.gov/cio/doe-f-2052-secure-software-development-attestation) in PDF format
 
